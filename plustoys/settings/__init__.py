@@ -146,7 +146,7 @@ LOGGING = {
 }
 
 try:
-    from settings.local import *
+    from local import *
 except ImportError:
     print "Have you created your settings/local.py file (and settings/__init__.py , just in case...)? It seams I can't find it. Moving on with the defaults"
     pass
