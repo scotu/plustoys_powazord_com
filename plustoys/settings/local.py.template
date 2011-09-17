@@ -1,4 +1,9 @@
 # -*- Mode: Python; coding: utf-8; indent-tabs-mode: nil; tab-width: 4 -*-
 
+# Make this unique, and don't share it with anybody.
+SECRET_KEY = ''
+
+DEBUG = True
+
 GOOGLE_API_KEY = ""
 

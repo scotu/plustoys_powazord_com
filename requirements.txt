@@ -1,1 +1,2 @@
 -e git+https://github.com/scotu/django-plusbadges.git#egg=plusbadges
+-e git://github.com/clintecker/django-google-analytics.git#egg=django-google-analytics
