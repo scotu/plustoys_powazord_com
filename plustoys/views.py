@@ -9,10 +9,14 @@ def home(request):
         [{
             "name": "User Badge Generator for Google+",
             "url": reverse("plusbadges_home")
-        },
-        {
-            "name": "Trello Holodeck for Google+ Hangouts (only the name is fancy, the toy is very simplistic!)",
-            "url": "/hangoutapps/#h-trello-holodeck"
         }]
+        #[{
+            #"name": "User Badge Generator for Google+",
+            #"url": reverse("plusbadges_home")
+        #},
+        #{
+            #"name": "Trello Holodeck for Google+ Hangouts (only the name is fancy, the toy is very simplistic!)",
+            #"url": "/hangoutapps/#h-trello-holodeck"
+        #}]
     }, context_instance=RequestContext(request))
 
